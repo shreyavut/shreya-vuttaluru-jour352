@@ -1,5 +1,7 @@
 /* this is a comment */
 
+/* style for my resume */
+
 body {
   font-family: open sans, arial, sans-serif;
   size: 1em;
@@ -26,9 +28,21 @@ h2 {
   font-weight: 400;
 }
 
-h3{
+h3 {
   font-weight: 600;
-  size: 2em
+  size: 2em;
 }
 
-h4
+h4 {
+  font-weight: 400;
+  size: 1.5em;
+}
+
+h5 {
+  font-weight: 400;
+  size: 1em;
+}
+
+li {
+  font-size: 1.5em;
+}
