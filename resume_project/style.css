@@ -3,10 +3,14 @@
 /* style for my resume */
 
 body {
-  font-family: open sans, arial, sans-serif;
+  font-family: 'Open Sans', arial, sans-serif;
   size: 1em;
   color: #444;
   font-weight: 400;
+}
+
+img {
+  display: none;
 }
 
 h1 {
