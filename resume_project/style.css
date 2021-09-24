@@ -2,12 +2,33 @@
 
 body {
   font-family: open sans, arial, sans-serif;
-  size: 1cm;
-  color: #444
+  size: 1em;
+  color: #444;
+  font-weight: 400;
 }
 
 h1 {
   color: #33485e;
-  size: 36cm;
-  text-transform: uppercase
+  size: 36em;
+  text-transform: uppercase;
 }
+
+strong {
+  text-transform: uppercase;
+  size: 1.5em
+}
+
+h2 {
+  text-transform: uppercase;
+  size: 1.5em;
+  color: white;
+  background-color: #33485e;
+  font-weight: 400;
+}
+
+h3{
+  font-weight: 600;
+  size: 2em
+}
+
+h4
