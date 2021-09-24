@@ -1,7 +1,13 @@
 /* this is a comment */
 
-h1 {
-  color: 33485e;
-  size: 36cm;
+body {
+  font-family: open sans, arial, sans-serif;
+  size: 1cm;
+  color: #444
+}
 
+h1 {
+  color: #33485e;
+  size: 36cm;
+  text-transform: uppercase
 }
