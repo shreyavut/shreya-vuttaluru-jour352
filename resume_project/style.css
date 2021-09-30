@@ -3,6 +3,13 @@
 /* style for my resume */
 
 /* this alters the body */
+
+#container{
+  width: 100%;
+  
+}
+
+
 body {
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -16,11 +23,15 @@ img {
 }
 
 /* style for name */
-h1 {
+#name {
   color: #33485e;
   text-align: center;
   font-size: 3.5em;
   text-transform: uppercase;
+  border-bottom: 2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 /* style for title */
@@ -31,12 +42,18 @@ strong {
 }
 
 /* style for experience + subheadings */
-h2 {
+.sectionheader {
   text-transform: uppercase;
   font-size: 1.5em;
   color: white;
   background-color: #33485e;
   font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 70%;
+  max-width: 300px;
 }
 
 /* style for job titles */
