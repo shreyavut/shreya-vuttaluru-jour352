@@ -4,9 +4,10 @@
 
 /* this alters the body */
 
-#container{
+#container {
   width: 100%;
-  
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 
@@ -36,7 +37,7 @@ img {
 
 /* style for title */
 h1 {
-strong {
+  font-weight: strong;
   text-transform: uppercase;
   font-size: 1.5em
 }
@@ -53,7 +54,7 @@ strong {
   margin-left: 0px;
   margin-right: 0px;
   width: 70%;
-  max-width: 300px;
+  min-width: 300px;
 }
 
 /* style for job titles */
