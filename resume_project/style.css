@@ -64,7 +64,7 @@ h1 {
 }
 
 /* style for job location  */
-h4 {
+.organization {
   font-weight: 400;
   font-size: 1.5em;
 }
@@ -77,5 +77,5 @@ h5 {
 
 /* style for skills and education */
 li {
-  font-size: 1.5em;
+  font-size: 1em;
 }
