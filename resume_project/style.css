@@ -58,7 +58,7 @@ h1 {
 }
 
 /* style for job titles */
-h3 {
+.jobtitle {
   font-weight: 600;
   font-size: 2em;
 }
