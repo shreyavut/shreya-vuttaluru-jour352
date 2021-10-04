@@ -10,6 +10,12 @@
   margin: 0 auto;
 }
 
+.menu li {
+  display: inline;
+  text-align: center;
+  padding: 0px;
+  margin: 0 auto;
+}
 
 body {
   font-family: 'Open Sans', arial, sans-serif;
@@ -36,10 +42,16 @@ img {
 }
 
 /* style for title */
-h1 {
-  font-weight: strong;
+#title {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
   text-transform: uppercase;
-  font-size: 1.5em
+  color: #33485e;
 }
 
 /* style for experience + subheadings */
@@ -70,12 +82,43 @@ h1 {
 }
 
 /* style for dates */
-h5 {
+.date {
   font-weight: 400;
   font-size: 1em;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* style for description */
+
+.description {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 /* style for skills and education */
-li {
+#degrees {
   font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#skills {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 0px;
 }
