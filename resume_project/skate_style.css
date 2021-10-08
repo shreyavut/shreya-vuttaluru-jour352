@@ -1,0 +1,25 @@
+img {
+  max-width: 500px;
+  align: center;
+}
+
+h2{
+  font-family: 'Special Elite'
+}
+
+.btn {
+  top-margin: 25px;
+  font-family: 'Special Elite';
+}
+
+.container_bottom {
+  text-align: center;
+  bottom-padding: 50px;
+  margin-top: 25px;
+}
+
+.row {
+  top-margin: 25px
+  bottom-padding: 50px
+  top-pa
+}
