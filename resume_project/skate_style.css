@@ -1,5 +1,6 @@
 img {
   max-width: 500px;
+  width: 100%;
   align: center;
 }
 
@@ -21,7 +22,6 @@ h3{
 
 .btn {
   margin-top: 25px;
-  padding-top: 25px;
   text-align: center;
   font-family: 'Special Elite';
 }
@@ -39,27 +39,32 @@ h3{
 .row {
   margin-top: 25px;
   padding-bottom: 50px;
+  margin: 0 auto;
 }
 
 .col-md-4 {
   text-align: center;
 }
 
-p {
+
+.bi {
+  font-size: 3em;
+}
+
+.col-md-6 {
   max-width: 500px;
-}
-
-.col-md-6 {
-}
-
-.col-md-6 {
   text-align: center;
+  margin: 0 auto;
 }
-
 
 @media only screen and (max-width: 500px) {
         .row {
+  padding-top: 50px;
+  background-color: teal;
+        }
+
+        h2 {
           padding-top: 50px;
-          background-color: teal;
+        }
 
 }
