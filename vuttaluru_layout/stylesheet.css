@@ -52,8 +52,9 @@ blockquote {
     margin: 0 auto;
 }
 
-p .img-cap {
-  font-size: .8em;
+p.img-cap {
+  font-size: 11px;
+  font-family: Helvetica;
 }
 
 #gif {
