@@ -24,8 +24,15 @@ img {
   width: 550px;
 }
 
+blockquote {
+  display: large;
+  font-size: 28px;
+  font-family: Georgia, serif;
+  text-align: left;
+}
+
 .col-md-6 {
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
