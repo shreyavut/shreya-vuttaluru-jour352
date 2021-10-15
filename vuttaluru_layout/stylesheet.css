@@ -10,11 +10,17 @@
 }
 
 #masthead {
+  text-align: center;
   background-size: cover;
 }
 
 h1 {
   font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 p {
