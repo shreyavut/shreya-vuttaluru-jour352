@@ -9,6 +9,10 @@
   font-style: italic;
 }
 
+#masthead {
+  background-size: cover;
+}
+
 h1 {
   font-family: Helvetica, sans-serif;
 }
@@ -41,4 +45,9 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.readmore {
+    font-family: Georgia, serif;
+    font-size: 18px;
 }
