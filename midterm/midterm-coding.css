@@ -53,9 +53,18 @@ img {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 500px) {
-        .row {
-  padding-top: 50px;
+/* i'm not sure why this isn't working and it's making me sad */
+
+@media screen and (max-width: 300px) {
+        #content {
+          margin: 0 auto;
+          width: 100%;
+        }
+
+        .story {
+          margin: 0 auto;
+          width: 100%;
+        }
 
         h2 {
           padding-top: 50px;
@@ -71,6 +80,6 @@ img {
 
         blockquote {
           text-align: center;
-
+          size: 20px;
         }
   }
