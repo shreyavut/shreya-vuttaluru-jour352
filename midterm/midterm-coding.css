@@ -1,11 +1,15 @@
 #content {
   margin: 0 auto;
-  width: 900px;
+  width: 90%;
 }
 
 h1 {
   font-family: Georgia, serif;
   text-align: center;
+}
+
+body {
+  margin: 0px;
 }
 
 #masthead {
@@ -20,7 +24,7 @@ h1 {
   text-align: center;
 }
 
-p.story {
+.story {
   font-family: Helvetica, Arial, sans-serif;
   size: 12px;
 }
@@ -43,23 +47,18 @@ p.img-cap {
   font-family: Helvetica;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 img {
   margin: 0 auto;
   width: 500px;
 }
 
-.col-md-6 {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
 /* i'm not sure why this isn't working and it's making me sad */
 
-@media screen and (max-width: 300px) {
-        #content {
-          margin: 0 auto;
-          width: 100%;
-        }
+@media screen and (min-width: 900px) {
 
         .story {
           margin: 0 auto;
@@ -70,8 +69,8 @@ img {
           padding-top: 50px;
         }
 
-        .col-md-6 {
-          margin: 0 auto;
+        .row{
+          display: flex;
         }
 
         img {
