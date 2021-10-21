@@ -1,7 +1,48 @@
-h1 {
-  font-family: Georgia serif;
+#content {
+  margin: 0 auto;
+  width: 900px;
 }
 
-.story {
-  font-family: Helvetica Arial sans-serif;
+h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+}
+
+#byline {
+  font-family: Helvetica, Arial, sans-serif;
+  size: 12px;
+  text-align: center;
+}
+
+p.story {
+  font-family: Helvetica, Arial, sans-serif;
+  size: 12px;
+}
+
+.subhead {
+  size: 20px;
+}
+
+
+blockquote {
+  display: large;
+  font-size: 28px;
+  font-family: Georgia, serif;
+  text-align: left;
+}
+
+p.img-cap {
+  margin: 0 auto;
+  font-size: 13px;
+  font-family: Helvetica;
+}
+
+img {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.col-md-6 {
+    max-width: 500px;
+    margin: 0 auto;
 }
