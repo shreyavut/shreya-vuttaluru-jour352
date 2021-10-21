@@ -55,6 +55,7 @@ p.img-cap {
 }
 
 @media screen and (min-width: 900px) {
+
     .story {
       margin: 0 auto;
       width: 100%;
