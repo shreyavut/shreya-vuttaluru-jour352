@@ -22,6 +22,8 @@ body {
   width: 400px;
 }
 
+/* not sure why but fonts are auto-ing to sans or serif, not legit font. wasn't a problem before */
+
 #byline {
   font-family: Helvetica, Arial, sans-serif;
   size: 12px;
