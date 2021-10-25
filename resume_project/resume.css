@@ -124,3 +124,27 @@ body {
   text-align: left;
   list-style-type: none;
 }
+
+@media screen and (min-width: 900px) {
+
+    body {
+      margin: 0 auto;
+      width: 100%;
+    }
+
+
+    .row {
+      display: grid;
+      grid-template-columns: 0.2fr 0.9fr;
+    }
+
+    .row-wide-img {
+      grid-template-columns: 0.4fr 0.8fr;
+    }
+
+    .img-wrap {
+      margin: auto;
+      padding-right: 1em;
+    }
+
+  }
