@@ -5,10 +5,10 @@ img {
     display: inline-block;
 }
 
-.desc {
+.subhead {
   margin-top: 0px;
   padding-top: 30px;
-  padding-left: 163px;
+  padding-left: 15px;
   color: #955D59;
   text-align: left;
   font-size: 30px;
@@ -19,7 +19,7 @@ img {
   font-family: Helvetica Neue;
   color: #84747A;
   padding-left: 55px;
-  text-align: center;
+  text-align: left;
   font-size: 15px;
   margin: 0 auto;
 }
@@ -29,7 +29,7 @@ img {
     margin-left: 0px;
     padding: 10px 20px 0px 20px;
     font-size: 18px;
-    color: #955D59;
+    color: #84747A;
     white-space: nowrap;
     font-family: Helvetica Neue;
 }
@@ -50,13 +50,40 @@ img {
 }
 
 .img-wrap {
-  width: 200px;
+  width: 300px;
 }
 
-.col-md-6 {
-  text-align: center;
+body {
+  font-family: Helvetica Neue;
+  font-size: 15px;
+  color: #84747A;
 }
 
 .img-fluid {
   margin: 0 auto;
+  border: 5px solid #84747A;
+}
+
+.contact {
+  padding-left: 15px;
+  color: #955D59;
+  text-align: right;
+  font-size: 30px;
+  font-family: Sinhala MN;
+}
+
+.col-md-6 {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.jobtitle {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.organization {
+  font-weight: 400;
+  font-size: 1.0em;
+  font-style: italic;
 }
