@@ -2,13 +2,12 @@
 img {
     max-width: 100%;
     vertical-align: middle;
-    display: inline-block;
 }
 
 .subhead {
   margin-top: 0px;
   padding-top: 30px;
-  padding-left: 15px;
+  padding-left: 11.5%;
   color: #955D59;
   text-align: left;
   font-size: 30px;
@@ -61,8 +60,6 @@ body {
 }
 
 .row {
-  display: inline;
-  max-width: 600px;
   float: none;
   margin: 0 auto;
 
@@ -79,6 +76,7 @@ body {
   text-align: right;
   font-size: 30px;
   font-family: Sinhala MN;
+  list-style-type: none;
 }
 
 .experience {
@@ -87,7 +85,6 @@ body {
 
 .col-md-6 {
   margin: 0 auto;
-  max-width: 500px;
 }
 
 .jobtitle {
@@ -101,7 +98,7 @@ body {
   font-style: italic;
 }
 
-.edu {
+.education {
   background-color: #DCD5CF;
   text-align: center;
   list-style-type: none;
