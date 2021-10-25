@@ -54,6 +54,7 @@ a:hover {
 
 .img-wrap {
   width: 340px;
+  min-width: 250px;
 }
 
 body {
@@ -123,4 +124,32 @@ body {
 .skills {
   text-align: left;
   list-style-type: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+.row {
+  width: 100%;
+  padding: none;
+}
+
+.col-md-6 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-md-4 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#talk.subhead {
+  text-align: left;
+}
+
+.contact {
+  text-align: left;
+}
+
+
 }
