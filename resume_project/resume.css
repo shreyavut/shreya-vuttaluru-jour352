@@ -138,10 +138,6 @@ body {
       grid-template-columns: 0.2fr 0.9fr;
     }
 
-    .row-wide-img {
-      grid-template-columns: 0.4fr 0.8fr;
-    }
-
     .img-wrap {
       margin: auto;
       padding-right: 1em;
