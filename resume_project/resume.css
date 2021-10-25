@@ -7,7 +7,7 @@ img {
 .subhead {
   margin-top: 0px;
   padding-top: 30px;
-  padding-left: 11.5%;
+  padding-left: 1%;
   color: #955D59;
   text-align: left;
   font-size: 30px;
@@ -17,10 +17,8 @@ img {
 #top {
   font-family: Helvetica Neue;
   color: #84747A;
-  padding-left: 55px;
   text-align: left;
   font-size: 15px;
-  margin: 0 auto;
 }
 
 .nav-link {
@@ -60,7 +58,8 @@ body {
 }
 
 .row {
-  float: none;
+  padding-left: 14em;
+  padding-right: 14em;
   margin: 0 auto;
 
 }
@@ -80,10 +79,6 @@ body {
 
 .experience {
   background-color: #DCD5CF;
-}
-
-.col-md-6 {
-  margin: 0 auto;
 }
 
 .jobtitle {
