@@ -11,6 +11,7 @@ img {
   color: #955D59;
   text-align: left;
   font-size: 30px;
+  letter-spacing: 1.5px;
   font-family: Sinhala MN;
 }
 
@@ -24,11 +25,11 @@ img {
 .nav-link {
     margin-right: 0px;
     margin-left: 0px;
-    padding: 10px 20px 0px 20px;
     font-size: 18px;
-    color: #84747A;
+    color: white;
+    letter-spacing: 1.5px;
     white-space: nowrap;
-    font-family: Helvetica Neue;
+    font-family: Sinhala MN;
 }
 
 .navbar {
@@ -36,19 +37,17 @@ img {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-top: 20px;
-    padding-left: 0px;
-    padding-bottom: 0px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     background-color: transparent;
+    background-color: #955D59;
 }
 
 
 .img-wrap {
-  width: 300px;
+  width: 340px;
 }
 
 body {
@@ -66,19 +65,29 @@ body {
 
 .img-fluid {
   margin: 0 auto;
-  border: 5px solid #84747A;
+  border: 5px solid #D0C8B3;
 }
 
 .contact {
-  padding-left: 15px;
+  padding-left: 0px;
   color: #955D59;
-  font-size: 30px;
+  font-size: 15px;
   font-family: Sinhala MN;
   list-style-type: none;
+  text-align: right;
 }
 
-.experience {
-  background-color: #DCD5CF;
+#talk.subhead {
+  padding-top: 35px;
+  text-align: right;
+}
+
+#experience.subhead {
+  color: white;
+}
+
+#education.subhead {
+  color: white;
 }
 
 .jobtitle {
@@ -92,9 +101,15 @@ body {
   font-style: italic;
 }
 
+.experience {
+  color: white;
+  background-color: #955D59;
+}
+
 .education {
-  background-color: #DCD5CF;
+  background-color: #955D59;
   text-align: center;
+  color: white;
   list-style-type: none;
 }
 
