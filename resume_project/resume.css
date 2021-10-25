@@ -62,6 +62,8 @@ body {
 .row {
   display: inline;
   max-width: 600px;
+  float: none;
+  margin: 0 auto;
 
 }
 
