@@ -133,14 +133,8 @@ body {
   padding: none;
 }
 
-.col-md-6 {
+body {
   width: 100%;
-  margin: 0 auto;
-}
-
-.col-md-4 {
-  width: 100%;
-  margin: 0 auto;
 }
 
 #talk.subhead {
