@@ -8,7 +8,7 @@ img {
   margin-top: 0px;
   padding-top: 30px;
   padding-left: 1%;
-  color: #955D59;
+  color: #84747A;
   text-align: left;
   font-size: 30px;
   letter-spacing: 1.5px;
@@ -41,7 +41,6 @@ img {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    background-color: transparent;
     background-color: #955D59;
 }
 
@@ -65,12 +64,13 @@ body {
 
 .img-fluid {
   margin: 0 auto;
-  border: 5px solid #D0C8B3;
+  border: 5px solid #84747A;
 }
 
 .contact {
   padding-left: 0px;
-  color: #955D59;
+  padding-top: 10px;
+  color: #84747A;
   font-size: 15px;
   font-family: Sinhala MN;
   list-style-type: none;
@@ -82,16 +82,16 @@ body {
   text-align: right;
 }
 
-#experience.subhead {
+#experience .subhead {
   color: white;
 }
 
-#education.subhead {
+#education .subhead {
   color: white;
 }
 
 .jobtitle {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1.5em;
 }
 
@@ -114,6 +114,6 @@ body {
 }
 
 .skills {
-  text-align: center;
+  text-align: left;
   list-style-type: none;
 }
