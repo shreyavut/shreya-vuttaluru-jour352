@@ -32,6 +32,10 @@ img {
     font-family: Sinhala MN;
 }
 
+.nav-link:hover {
+    color: #84747A;
+}
+
 .navbar {
     display: -webkit-box;
     display: -webkit-flex;
