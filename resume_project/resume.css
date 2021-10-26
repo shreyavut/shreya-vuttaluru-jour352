@@ -44,6 +44,10 @@ img {
     background-color: #955D59;
 }
 
+#nav-container {
+  padding-left: 10%;
+}
+
 a {
   color: #84747A;
 }
