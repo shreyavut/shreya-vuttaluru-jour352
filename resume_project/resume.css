@@ -137,6 +137,10 @@ body {
   width: 100%;
 }
 
+#container {
+  margin: 0 auto;
+}
+
 #talk.subhead {
   text-align: left;
 }
