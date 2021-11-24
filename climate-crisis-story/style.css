@@ -1,5 +1,5 @@
 .headline {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 700;
   text-align: left;
   font-family: 'Vesper Libre', serif;
@@ -56,6 +56,8 @@
   font-size: .9em;
   font-family: Montserrat;
   text-align: left;
+  text-transform: uppercase;
+  background-color: #F6DDCC;
 }
 
 p {
@@ -65,8 +67,9 @@ p {
 
 .chapterhead {
   font-family: 'Vesper Libre', serif;
-  font-size: 1.5em;
+  font-size: 1.75em;
   font-weight: 1000;
+  background-color: #F6DDCC;
 }
 
 .img-fluid {
@@ -120,6 +123,44 @@ p {
   font-size: .4em;
   color: black;
   font-weight: 100;
+}
+
+/* sidebar */
+.sidebar {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.sidebar-head {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #993414;
+}
+
+.sidebar-text {
+  font-family: 'Vesper Libre', serif;
+}
+
+ul {
+  text-align: left;
+  font-family: 'Vesper Libre', serif;
+}
+
+/* links baby!! */
+
+a:link {
+  color: #e98352;
+}
+
+a:visited {
+  color: #66230e
+}
+
+a:hover{
+  color: #993414;
 }
 
 /* media query !! */
