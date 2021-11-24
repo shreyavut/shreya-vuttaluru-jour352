@@ -57,7 +57,10 @@
   font-family: Montserrat;
   text-align: left;
   text-transform: uppercase;
-  background-color: #F6DDCC;
+  background-color: #CD3700;
+  color: white;
+  font-weight: 200;
+  padding-left: 10px;
 }
 
 p {
@@ -69,7 +72,10 @@ p {
   font-family: 'Vesper Libre', serif;
   font-size: 1.75em;
   font-weight: 1000;
-  background-color: #F6DDCC;
+  background-color: #CD3700;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 .img-fluid {
