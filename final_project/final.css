@@ -48,8 +48,9 @@
 .headline {
   font-size: 3em;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   font-family: Montserrat, sans-serif;
+  color: #8D0000;
 }
 
 .container {
@@ -60,11 +61,11 @@
   font-size: 2em;
   font-family: Cutive, serif;
   padding-left: 15px;
+  color: #8D0000;
 }
 
 .byline {
   font-size: 1em;
-  text-transform: uppercase;
   font-size: 1em;
   text-align: left;
 }
