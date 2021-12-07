@@ -37,6 +37,10 @@ body {
   font-size: 18px;
 }
 
+p.row-text {
+  text-align: left;
+}
+
 blockquote {
   display: large;
   font-size: 27px;
