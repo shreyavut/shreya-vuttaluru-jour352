@@ -30,7 +30,7 @@
 
 .hero-hed {
   font-family: Cutive, serif;
-  font-size: 6em;
+  font-size: 5.5em;
   color:  black;
   text-align: center;
   margin: 0 auto;
@@ -41,7 +41,7 @@
 
 .hero-subhed {
   font-family: Cutive, serif;
-  font-size: 6em;
+  font-size: 5.5em;
   text-align: center;
 }
 
@@ -50,6 +50,12 @@
   font-weight: 700;
   text-align: left;
   font-family: Montserrat, sans-serif;
+  color: #8D0000;
+}
+
+.bi {
+  text-align: center;
+  font-size: 1.5em;
   color: #8D0000;
 }
 
@@ -113,6 +119,7 @@ p.img-cap {
 .footer {
   text-align: center;
   margin: 0 auto;
+  color: #8D0000;
 }
 
 .red {
