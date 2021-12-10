@@ -87,6 +87,11 @@ p {
   font-weight: bold;
 }
 
+hr {
+  border: solid;
+  height: 5px;
+}
+
 .img-fluid {
   margin: 0 auto;
   display: block;
