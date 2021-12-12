@@ -160,5 +160,12 @@ p.img-cap {
       font-size: 2em;
     }
 
+}
+
+@media(max-width:500px) {
+
+.bi {
+  display: none;
+}
 
 }
