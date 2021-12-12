@@ -132,7 +132,7 @@ p.img-cap {
 
 /* media queries !! */
 
-@media(max-width:1400px) {
+@media(max-width:768px) {
 
   p{
     padding-left: 20px;
@@ -162,10 +162,23 @@ p.img-cap {
 
 }
 
-@media(max-width:500px) {
-
-.bi {
-  display: none;
+@media(min-width:992px) and (max-width:1200px) {
+  .hero-hed {
+      font-size: 3.75rem;;
+    }
 }
+
+@media(min-width:768px) and (max-width:992px) {
+  .hero-hed {
+      font-size: 2.25rem;
+    }
+}
+
+
+@media(max-width:768px) {
+
+  .bi {
+    display: none;
+  }
 
 }
