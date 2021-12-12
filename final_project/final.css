@@ -152,4 +152,9 @@ p.img-cap {
     font-size: 2.5em;
   }
 
+  .container {
+    width: 100%;
+  }
+
+
 }
