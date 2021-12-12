@@ -133,14 +133,6 @@ p.img-cap {
 
 /* media queries !! */
 
-@media(max-width:1000px) {
-
-  .hed {
-    font-size: 3.5em;
-  }
-
-}
-
 @media(max-width:1400px) {
 
   p{
@@ -157,7 +149,7 @@ p.img-cap {
   }
 
   .hero-hed {
-    font-size: 1.5em;
+    font-size: 2.5em;
   }
 
 }
