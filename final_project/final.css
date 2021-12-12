@@ -131,8 +131,17 @@ p.img-cap {
   color: #8D0000;
 }
 
-/* media query !! */
-@media(max-width:800px) {
+/* media queries !! */
+
+@media(max-width:1000px) {
+
+  .hed {
+    font-size: 3.5em;
+  }
+
+}
+
+@media(max-width:1400px) {
 
   p{
     padding-left: 20px;
