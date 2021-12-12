@@ -148,13 +148,18 @@ p.img-cap {
     font-size: 2em;
   }
 
-  .hero-hed {
-    font-size: 2.5em;
-  }
 
   .container {
     width: 100%;
   }
+
+  .hero-hed {
+      font-size: 1.25rem;
+    }
+
+  .headline {
+      font-size: 2em;
+    }
 
 
 }
